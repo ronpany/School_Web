@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<main>
+    <fieldset>
+        <legend><b>Input list</b> (recomendado para muchas opciones)</legend>
+        <form action="">
+            <input list="cursos1">
+            <datalist id="cursos1">
+                <option value="Javascript"></option>
+                <option value="HTML"></option>
+                <option value="CSS3"></option>
+                <option value="Web Standards"></option>
+            </datalist>
+        </form>
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend><b>Select</b> (recomendado para pocas opciones)</legend>
+        <form action="">
+            <select name="" id="">
+                <option value="Javascript">Javascript</option>
+                <option value="HTML">HTML</option>
+                <option value="CSS3">CSS3</option>
+                <option value="Web Standards">Web Standards</option>
+            </select>
+        </form>
+    </fieldset>
+</main>
+
+<body>
+    <form action="">
+        <label for="dateInicio">
+            <span>Hora</span>
+            <input type="time" name="dateInicio" id="dateInicio">
+
+        </label>
+    </form>
+    <!--Esta opcion lo que hace es mostrar SOLAMENTE unos datos arbitrarios-->
+    <select name="option" id="option">
+        <option value="Java">Java</option>
+        <option value="JavaScript">JavaScript</option>
+        <option value="Python">Python</option>
+    </select>
+    <!--Este otro tipo nos ayuda a seleccionar algunas o niguna y deja escribir-->
+    <div>
+        <input list="cursos" />
+        <datalist>
+            <option value="Java">Java</option>
+            <option value="JavaScript">JavaScript</option>
+            <option value="Python">Python</option>
+        </datalist>
+    </div>
+
+</body>
+
+</html>
