@@ -1,1 +1,4 @@
-Header -> 
+# Layout
+This is very important, because it is the desing of our web page. 
+
+1. Nav -> This is the section where we find different options, such as (Inicio, Servicios, Nosotros)
